@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@600;700&family=Roboto:wght@100;300;400;600;700&display=swap");
+@import "variables.css";
+
+html {
+  background-color: var(--clr-neutral-0);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: var(--clr-neutral-100);
+  scroll-behavior: smooth;
+  scroll-padding-top: 8rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+blockquote,
+label,
+input,
+textarea,
+button,
+a {
+  font-family: var(--roboto);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+

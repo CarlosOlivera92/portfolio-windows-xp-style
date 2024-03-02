@@ -1,7 +1,8 @@
-import "./App.css";
+import "@assets/styles/global.css";
+import Desktop from "./components/templates/Desktop/Desktop";
 
 function App() {
-  return null;
+  return <Desktop />;
 }
 
 export default App;
