@@ -1,6 +1,7 @@
 .desktop {
     width: 100%;
     height: 100vh;
+    position: relative; /* Añadido para posicionar el Taskbar */
     background-image: url('../../../assets/images/bliss.webp'); 
     background-position: center;
     background-repeat: no-repeat;
