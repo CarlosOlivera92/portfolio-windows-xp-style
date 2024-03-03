@@ -1,5 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Changa:wght@600;700&family=Roboto:wght@100;300;400;600;700&display=swap");
 @import "variables.css";
+
+@font-face {
+  font-family: 'trebuc';
+  src: url('../fonts/trebuc.ttf') format('ttf'),
+       url('../fonts/Trebuchet-MS-Italic.ttf') format('ttf');
+}
 
 html, body {
     height: 100%; 
@@ -34,7 +39,7 @@ input,
 textarea,
 button,
 a {
-  font-family: var(--roboto);
+  font-family: var(--trebuc);
 }
 
 a {

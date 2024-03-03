@@ -1,0 +1,16 @@
+.startButton {
+    width: 94px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../../assets/images/winxpbtn-normal.png');
+    transition: background-image 0.3s ease; /* Transición suave */
+    user-select: none; /* Evita la selección del texto dentro del botón */
+}
+.startButton:hover {
+    background-image: url('../../../assets/images/winxpbtn-hover.png');
+}
+.startButton:active {
+    background-image: url('../../../assets/images/winxpbtn-active.png');
+}
