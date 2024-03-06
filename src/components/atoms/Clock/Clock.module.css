@@ -1,0 +1,7 @@
+.clock {
+    font-size: 12px;
+    color: var(--clr-neutral-0);
+}
+.clock p {
+    font-family: var(--tahoma);
+}

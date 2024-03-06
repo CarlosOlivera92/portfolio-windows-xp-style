@@ -5,6 +5,10 @@
   src: url('../fonts/trebuc.ttf') format('ttf'),
        url('../fonts/Trebuchet-MS-Italic.ttf') format('ttf');
 }
+@font-face {
+  font-family: 'tahoma';
+  src: url('../fonts/tahoma.ttf') format('ttf'),
+}
 
 html, body {
     height: 100%; 
