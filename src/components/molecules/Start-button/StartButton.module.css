@@ -1,11 +1,18 @@
 .startButton {
-    width: 94px;
-    height: 100%;
+    width: 104px;
+    max-height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding: .5rem;
+    padding-inline-start: 1rem;
     background-image: url('../../../assets/images/winxpbtn-normal.png');
+    background-position: center;
+    background-size: cover;
     transition: background-image 0.3s ease; /* Transición suave */
+    font-weight: bold;
+    color: #fff;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombras: desplazamiento X, desplazamiento Y, desenfoque, color */
     user-select: none; /* Evita la selección del texto dentro del botón */
 }
 .startButton:hover {
@@ -13,4 +20,13 @@
 }
 .startButton:active {
     background-image: url('../../../assets/images/winxpbtn-active.png');
+}
+.startButton p {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline-start: .2rem;
+    margin-block-start: .2rem;
 }

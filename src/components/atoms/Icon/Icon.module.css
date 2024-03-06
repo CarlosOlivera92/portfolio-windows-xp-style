@@ -1,0 +1,19 @@
+.icon {
+    width: fit-content;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: 0.1s ease-in-out;
+}
+.iconImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
+}
+  
+.icon[data-loading] {
+    transform: scale(0);
+}
+  
