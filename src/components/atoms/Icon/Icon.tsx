@@ -6,7 +6,7 @@ export const Icon = ({ name, classList = "", selfRef }: IIconProps) => {
 
   return (
     <span ref={selfRef} className={`${styles.icon} ${classList}`}>
-      <img src={iconSrc} alt={name} className={styles.iconImg} />
+      <img src={iconSrc} alt={name} title={name} className={styles.iconImg} />
     </span>
   );
 };
